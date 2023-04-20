@@ -64,3 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to installation
+
+- git clone [https://github.com/wandoy37/monitoring-service-komputer.git](https://github.com/wandoy37/starter-kit-laravel-9.git)
+- composer install or composer update
+- cp .env.example .env
+- configuration database connection
+- php artisan migrate
+- php artisan db:seed --class=AdminDashboard
+- php artisan serve
+- open your browser and go to url http://127.0.0.1:8000
+
+## My Social Media
+- Instagram : @mhmd_wandii
